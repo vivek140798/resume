@@ -1,0 +1,37 @@
+.container-fluid{
+    padding: 0px;
+  }
+  #animate, ul, .bg-black {
+    background-color: black; 
+  } 
+  li{
+    opacity: .4;
+    transition: all 0.2s ease;
+    border-bottom: 1px solid white;
+    &:hover{
+      opacity: 1;
+    }
+    &.active{
+      opacity: 1;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+  }  
+   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-top: 1px solid white;
+  }
+
+  
+  
+  
+  
